@@ -1,0 +1,23 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "cyrilsoft-api",
+      "image": "cyrijthomas2005/cyrilsoft-api:latest",
+      "essential": true,
+      "memory": 512,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 4081
+        }
+      ],
+      "environment": [
+        {
+          "name": "SPRING_DATASOURCE_URL",
+          "value": "jdbc:postgresql://awseb-e-hhhtt7mwjp-stack-awsebrdsdatabase-ig2pml44abiw.c5ggu2k0s4l0.us-east-2.rds.amazonaws.com:5432/customer"
+        }
+      ]
+    }
+  ]
+}
