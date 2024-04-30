@@ -1,5 +1,5 @@
 server:
-  port: 4082
+  port: 4081
   error:
     include-message: always
 
