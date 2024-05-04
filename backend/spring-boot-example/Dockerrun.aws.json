@@ -9,7 +9,7 @@
       "portMappings": [
         {
           "hostPort": 80,
-          "containerPort": 4081
+          "containerPort": 8080
         }
       ],
       "environment": [
