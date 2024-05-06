@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="917ac186-81b6-4451-a7e7-5acd97c94269" name="Changes" comment="break existsCustomerWithEmail method">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/backend-ci.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/backend/spring-boot-example/src/main/java/com/cyrilsoft/customer/CustomerJDBCDataAccessService.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2fpPzAP87RbMewgWwvo4Y3bwm0a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/Cyril Documents/Tutorials/Resume",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\Cyril Documents\Tutorials\Resume\Project\source_code" />
+      <recent name="C:\Users\user\Documents\Cyril Documents\Tutorials\Resume\Project\source_code\backend\spring-boot-example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cyrilsoft-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cyrilsoft.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="917ac186-81b6-4451-a7e7-5acd97c94269" name="Changes" comment="" />
+      <created>1714495305645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714495305645</updated>
+      <workItem from="1714495306750" duration="1877000" />
+      <workItem from="1714501497673" duration="1518000" />
+      <workItem from="1714547870469" duration="4930000" />
+      <workItem from="1714762271456" duration="1762000" />
+      <workItem from="1714767157293" duration="4649000" />
+      <workItem from="1714793084428" duration="587000" />
+      <workItem from="1714793692872" duration="1434000" />
+      <workItem from="1714795525848" duration="1203000" />
+      <workItem from="1714796747221" duration="17564000" />
+      <workItem from="1714933221925" duration="1309000" />
+      <workItem from="1714949589216" duration="818000" />
+      <workItem from="1714951339365" duration="12000" />
+      <workItem from="1714951529404" duration="792000" />
+      <workItem from="1714952394281" duration="4370000" />
+      <workItem from="1714957449097" duration="567000" />
+      <workItem from="1714958069963" duration="4193000" />
+    </task>
+    <task id="LOCAL-00001" summary="move docker-compose.yml to the root directory">
+      <option name="closed" value="true" />
+      <created>1714502139574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714502139574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change of application port number for consistency">
+      <option name="closed" value="true" />
+      <created>1714502340413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714502340413</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change port to port 8080.">
+      <option name="closed" value="true" />
+      <created>1714799506423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714799506423</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add build workflow and change docker-compose.yml postgres version to 16.1">
+      <option name="closed" value="true" />
+      <created>1714849298466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714849298466</updated>
+    </task>
+    <task id="LOCAL-00005" summary="break existsCustomerWithEmail method">
+      <option name="closed" value="true" />
+      <created>1714883106340</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714883106340</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="move docker-compose.yml to the root directory" />
+    <MESSAGE value="change of application port number for consistency" />
+    <MESSAGE value="Change port to port 8080." />
+    <MESSAGE value="Add build workflow and change docker-compose.yml postgres version to 16.1" />
+    <MESSAGE value="break existsCustomerWithEmail method" />
+    <option name="LAST_COMMIT_MESSAGE" value="break existsCustomerWithEmail method" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
