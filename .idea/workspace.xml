@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="917ac186-81b6-4451-a7e7-5acd97c94269" name="Changes" comment="break existsCustomerWithEmail method">
-      <change beforePath="$PROJECT_DIR$/.github_Delete/workflows/backend-ci.yml" beforeDir="false" />
+    <list default="true" id="917ac186-81b6-4451-a7e7-5acd97c94269" name="Changes" comment="Manual commit to update project structure">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/backend-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/backend-cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/backend-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/backend-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +142,7 @@
       <workItem from="1714957449097" duration="567000" />
       <workItem from="1714958069963" duration="4193000" />
       <workItem from="1714969161957" duration="11405000" />
-      <workItem from="1715015212698" duration="22315000" />
+      <workItem from="1715015212698" duration="24728000" />
     </task>
     <task id="LOCAL-00001" summary="move docker-compose.yml to the root directory">
       <option name="closed" value="true" />
@@ -199,11 +200,38 @@
       <option name="project" value="LOCAL" />
       <updated>1714969330947</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Manual commit to update project structure">
+      <option name="closed" value="true" />
+      <created>1715183812304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715183812304</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Manual commit to update project structure">
+      <option name="closed" value="true" />
+      <created>1715184632708</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715184632708</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="move docker-compose.yml to the root directory" />
@@ -211,7 +239,8 @@
     <MESSAGE value="Change port to port 8080." />
     <MESSAGE value="Add build workflow and change docker-compose.yml postgres version to 16.1" />
     <MESSAGE value="break existsCustomerWithEmail method" />
-    <option name="LAST_COMMIT_MESSAGE" value="break existsCustomerWithEmail method" />
+    <MESSAGE value="Manual commit to update project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manual commit to update project structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

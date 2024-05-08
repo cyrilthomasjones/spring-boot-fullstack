@@ -35,7 +35,7 @@ jobs:
     # Let's define all the steps we need for this workflow.
     default:
       run:
-        working-directory: ./backend
+        working-directory: ./source_code
     steps:
         # Will checkout our entire Application into the Linux runner and it will set the
         # working directory within the backend folder.
