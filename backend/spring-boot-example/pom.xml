@@ -13,11 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<organization>
-		<name>cyrilsoft</name>
-	<!--	<url>https://cyrilsoft.com</url>-->
-	</organization>
-
 	<description>Backend API for Spring App</description>
 	<name>spring-boot-example</name>
 <!--	<description>Demo project for Spring Boot</description>-->
@@ -27,6 +22,8 @@
 <!--		<maven.compiler.verbose>true</maven.compiler.verbose>-->
 		<!--		<java.version>17</java.version>-->
 		<docker.username>cyrijthomas2005</docker.username>
+		<docker.image.name>cyrilsoft-api</docker.image.name>
+		<docker.image.tag/>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -187,7 +184,8 @@
 					<to>
 						<!-- <image>registry.hub.docker.com/cyrijthomas2005/cyrilsoft-api</image>-->
 
-						<image>docker.io/${docker.username}/${project.artifactId}:${project.version}</image>
+						<!--<image>docker.io/${docker.username}/${project.artifactId}:${project.version}</image>-->
+						<image>docker.io/${docker.username}/${docker.image.name}:${docker.image.tag}</image>
 						<tags>
 							<tag>latest</tag>
 						</tags>
