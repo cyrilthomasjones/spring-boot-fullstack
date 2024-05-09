@@ -25,7 +25,7 @@ jobs:
           - 5332:5432
         # Ensures that we have a service which is empty before we run
         # all the steps. Configuration taken from Git documentation
-        options:
+        options: >-
           --health-cmd pg_isready
           --health-interval 10s
           --health-timeout 5s
@@ -66,10 +66,10 @@ jobs:
       - name: Update Dockerrun.aws.json api image tag with new build number
         run: |
             echo "Dockerrun.aws.json before updating tag"
-            cat ../Dockerrun.aws.json
+            cat Dockerrun.aws.json
             sed -i -E 's_(cyrijthomas2005/cyrilsoft-api:)([^"]*)_\1'${{steps.build-number.outputs.BUILD_NUMBER}}'_' ../Dockerrun.aws.json
             echo "Dockerrun.aws.json after updating tag"
-            cat ../Dockerrun.aws.json
+            cat Dockerrun.aws.json
       # Now let's write the configuration necessary for taking the Dockerrun.aws.json to
       # upload to Elastic Beanstalk using the BeanStalk Action (Beanstalk Deploy v21)
       - name: Deploy to Elastic Beanstalk
@@ -82,12 +82,12 @@ jobs:
             version_label: ${{ steps.build-number.outputs.BUILD_NUMBER }}
             version_description: ${{ github.SHA }}
             region: ${{ secrets.EB_REGION }}
-            deployment_package: Dockerrun.aws.json
+            deployment_package: backend/Dockerrun.aws.json
       # Here we want to commit the changes we made in step 8 to our repo, using GitHub action.
       - name: Commit and push Dockerrun.aws.json
         run: |
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git add ../Dockerrun.aws.json
+            git add .
             git commit -m "Update Dockerrun.aws.json docker image with new tag ${{ steps.build-number.outputs.BUILD_NUMBER }}"
             git push
