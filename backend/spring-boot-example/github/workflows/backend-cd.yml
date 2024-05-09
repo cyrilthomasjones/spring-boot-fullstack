@@ -22,7 +22,7 @@ jobs:
           # We pass an environment variable to create a database
           POSTGRES_DB: customer
         ports:
-          5332:5432
+          - 5332:5432
         # Ensures that we have a service which is empty before we run
         # all the steps. Configuration taken from Git documentation
         options:

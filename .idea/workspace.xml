@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="917ac186-81b6-4451-a7e7-5acd97c94269" name="Changes" comment="break existsCustomerWithEmail method">
-      <change beforePath="$PROJECT_DIR$/.github_Delete/workflows/backend-ci.yml" beforeDir="false" />
+    <list default="true" id="917ac186-81b6-4451-a7e7-5acd97c94269" name="Changes" comment="update project structure files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/spring-boot-example/github/workflows/backend-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/spring-boot-example/github/workflows/backend-cd.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "cyrilthomasjones"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="04b69fa3-469e-43ec-a16d-e176262e8019" />
+        <option name="url" value="https://github.com/cyrilthomasjones/spring-boot-fullstack.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/backend/spring-boot-example/src/main/java/com/cyrilsoft/customer/CustomerJDBCDataAccessService.java" root0="SKIP_INSPECTION" />
@@ -199,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714969330947</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update project structure files">
+      <option name="closed" value="true" />
+      <created>1715225004025</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715225004025</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update project structure files">
+      <option name="closed" value="true" />
+      <created>1715225142496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715225142496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +241,8 @@
     <MESSAGE value="Change port to port 8080." />
     <MESSAGE value="Add build workflow and change docker-compose.yml postgres version to 16.1" />
     <MESSAGE value="break existsCustomerWithEmail method" />
-    <option name="LAST_COMMIT_MESSAGE" value="break existsCustomerWithEmail method" />
+    <MESSAGE value="update project structure files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project structure files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
