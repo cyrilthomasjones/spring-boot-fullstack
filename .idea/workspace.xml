@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="917ac186-81b6-4451-a7e7-5acd97c94269" name="Changes" comment="Debug and amending other workflow issue">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/spring-boot-example/backend/src/main/java/com/cyrilsoft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/spring-boot-example/backend/src/main/java/com/cyrilsoft/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/spring-boot-example/github/workflows/backend-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/spring-boot-example/github/workflows/backend-cd.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715260683066</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Debug and amending other workflow issue">
+      <option name="closed" value="true" />
+      <created>1715262647524</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715262647524</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
