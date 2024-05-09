@@ -36,6 +36,7 @@ public class Main {
 
 //    printBeans(applicationContext);
 
+
     }
 
   @Bean
